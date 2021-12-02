@@ -48,9 +48,7 @@ linkedin_username: antonio-arellano-moral
 # about_title: About Me
 about_profile_image: images/toni_carnet.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hi, my name's Antonio and I'm a Senior Data Engineer.
 
 content:
   - title: Experience # Title for the section
@@ -143,46 +141,64 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Universitat Oberta de Catalunya
+        caption: 2020 - Present
+        sub_title: Master's degree in Informatics Engineering
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Official degree designed for IT professionals who wish to assume responsibilities in the ICT area of an organization and offer innovative technological solutions to large-scale problems.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          This Master enables to:
+          + Lead projects and teams in all ICT areas.
+          + Carry out all stages of the life cycle of a product or computer system, from its conception to the implantation and maintenance.
+          + Select and apply the most appropriate methodology and technology in a particular context.
+          + Develop technological solutions in innovative areas such as Artificial Intelligence, Cloud Computing or High Performance Computing.
+      - layout: left
+        title: Utrecht University
+        caption: 2019/08
+        sub_title: Project Management - From Theory to Practice
+        quote: >
+          PRINCE2® Foundation Certificate in Project Management obtained.
+        description: | # this will include new lines to allow paragraphs
+          Achieved the necessary skills in order to work in a multidisciplinary and multicultural project environment, and to identify the different stages and actors of a project.
+      - layout: left
+        title: Universitat Politècnica de Catalunya
+        caption: 2014 - 2018
+        sub_title: Bachelor Degree in Informatics Engineering
+        quote: >
+          Major in Information Technologies.
+        description: | # this will include new lines to allow paragraphs
+          <mark>Bachelor Thesis</mark>: Creation of a monitoring and tailing system for errors of ubiquitous devices https://upcommons.upc.edu/handle/2117/122591
           
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  #- title: Projects # Title for the section
+    #layout: list # Type of content section (list/text)
+    #content:
+      #- layout: top-middle
+        #title: Super awesome project
+        #link: github.com/sproogen
+        #link_text: Project Website
+        #additional_links:
+          #- title:  sproogen/modern-resume-theme
+            #icon: fab fa-github
+            #url: github.com/sproogen/modern-resume-theme
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        #description: | # this will include new lines to allow paragraphs
+          #I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  #- title: A Little More About Me
+    #layout: text
+    #content: | # this will include new lines to allow paragraphs
+      #Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      #- Rock climbing
+      #- Gaming
+      #- Knitting
+      #- [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      #Look at this cool image  
+      #![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
