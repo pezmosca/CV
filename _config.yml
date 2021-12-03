@@ -9,7 +9,7 @@ version: 2
 name: Antonio Arellano
 title: Data Engineer
 email: antonio.arellano.moral@gmail.com
-website: https://pezmosca.github.io/CV
+#website: https://pezmosca.github.io/CV
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -48,7 +48,17 @@ linkedin_username: antonio-arellano-moral
 # about_title: About Me
 about_profile_image: images/toni_carnet.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Antonio and I'm a Senior Data Engineer.
+
+  > *Hi! I am Antonio Arellano, Data Engineer* 👨‍💻 *and MSc Informatics Engineering student* 👨‍🎓. 
+
+  <mark>Status</mark>: Data Engineer, Software Engineer, Site Reliability Engineer.
+  
+  <mark>Fields</mark>: Data Science, Data Engineering, Big Data, Site Reliability Engineering, Software Development, Information Technologies Management, Private and Public Cloud Computing.
+  
+  <mark>Tech Stack</mark>: AWS, Google Cloud, Python, Java, Elastic Search, Logstash, Kibana, Grafana, Kafka, Kafka Streams, OAuth2.0, Docker, Kubernetes, Data Build Tool.
+  
+  <mark>Languages</mark>: Native Spanish, Native Catalan, Full Professional English.
+  
 
 content:
   - title: Experience # Title for the section
@@ -64,8 +74,8 @@ content:
           Course: Python for Data Science
         description: | # this will include new lines to allow paragraphs
             **Main responsibilities**: 
-            + Introduce, guide, plan, stimulate, focus, motivate and tie together students learning processes with a proactive approach.
-            + Address students doubts, offer examples and further explanations, stimulate debates, encourage participation in forums and mark and provide personalized feedback to evaluation tests in order to help students learning processes.
+            + Introduce, guide, plan, stimulate, focus, motivate and tie together student's learning processes with a proactive approach.
+            + Address student's doubts, offer examples and further explanations, stimulate debates, encourage participation in forums and mark and provide personalized feedback to evaluation tests in order to help students learning processes.
             + Creation of learning resources.
       - layout: left
         title: Mendix/Siemens (Rotterdam)
@@ -81,10 +91,10 @@ content:
             + Ensure all systems are always available by also being responsible for running them in production.
             + On-call duty.
             
-            **Projects in which I had big responsibility**:
-            + <mark>New servers deployment</mark>: Because of the high demand of the company clients it was needed to deploy new servers that could run Mendix apps, this includes deploy all the necessary in order to be able to log and monitor these apps. I was responsible for configure and deploy all the necessary for having logging, monitoring and alerting of Mendix apps at the new servers.
-            + <mark>Enable Datadog logging and tracing</mark>: As a policy from the company all the apps of the team needed to be logging and tracing into datadog, I was responsible for researching how to do it, and enabling a big number of apps with this new feature.
-            + <mark>Enable Veracode and Snyk</mark>: As part of the security policy from the company all the apps of the team needed to be analyzed by Veracode and Snyk, I was responsible for researching how to do it, and enabling a big number of apps with this new features.
+            **My involvement in projects:**:
+            + <mark>New servers deployment</mark>: Because of the high demand of the company's clients, new servers that could run Mendix apps were necessary. These apps required configuring and deploying all the necessary to be able to log and monitor them, which was one of my responsibilities.
+            + <mark>Enable Datadog logging and tracing</mark>: The company's policy required the logging and tracing into Datadog of the team's apps. My responsibility was to investigate how to achieve this and to equip the apps with this new feature.
+            + <mark>Enable Veracode and Snyk</mark>: The company's security policy required a security analysis by Veracode and Snyk of the team's apps. My responsibility was to investigate how to achieve this and to equip the apps with this new feature.
             
             **Tech Stack used**: AWS (S3, RDS, Route 53, Kinesis, Lambda, SQS), Python (Flask, Django, Celery, SQLAlchemy, Boto3, Requests, Asyncio), ELK stack, InfluxDB, Terraform, Ansible, Docker, Kubernetes, CloudFoundry, Mendix Cloud, Mendix Low-Code.
       - layout: left
@@ -97,13 +107,20 @@ content:
           Main Goal: Optimize the performance of the company data ecosystem using DataOps methodologies.
         description: | # this will include new lines to allow paragraphs
             **Main Tasks**: 
-            + Integrate Data from various resources and manage this data making sure is easily accessible by designing and building data processing platforms.
-            + Prepare the data infrastructure to be analyzed by Data Scientists and Data Analyst.
+            + Integrate and manage Data from various resources and ensuring easy accessibility by designing and building data processing platforms.
+            + Prepare the data infrastructure for Data Scientists and Data Analysts.
             + Maintain and update the Data pipeline.
             
-            **Projects in which I had big responsibility**:
-            + <mark>Data Build Tool (DBT) adoption</mark>: I was in charge of the adoption of DBT by the data team, this includes doing research about the new technology, analyze if it can bring value to the business value chain, design and implement a PoC, evangelize the data team about the new technology, migrate non-critical pipelines from the old technology to the new technology, analyze the behavior of the technology with real data, design and implement all the necessary,  including CI/CD and scripts that help automatizing the migration from the old technology to the new technology, in order to be ready to migrate critical pipelines.
-            + <mark>Cluster migration</mark>: A cluster of old and outdated machines was used for implementing the data ETL got old and was needed to migrate it to new machines with new specs and an updated OS. I was in charge of the whole process of choosing the new machines specs, installing and configuring in the new cluster all the software existing in the old cluster and leaving a new cluster ready to make the switch to it.
+            **My involvement in projects:**:
+            + <mark>Data Build Tool (DBT) adoption</mark>: My responsibility was the adoption of DBT by the data team. This included: 
+            
+                1. Exploring the new technology and analyze the potential value for the Business value chain.
+                2. The design and implementation of a PoC. 
+                3. Migrate non-critical pipelines from the old technology to the new technology. 
+                4. Analyze the behavior of the new technology with real data. 
+                5. Design and implement all the necessary, including CI/CD and scripts, to be ready to migrate critical pipelines.
+            
+            + <mark>Cluster migration</mark>: A cluster of outdated machines used for implementing the data ETL needed to be replaced by new machines with better specs and an updated OS. My responsibility was to be in charge of the process of choosing the new machines specs, installing and configuring all the software existing in the old cluster into the new cluster, leaving it ready for the cluster switch.
             
             **Tech Stack used**: Airflow, Mara Data Integration, Python, Jenkins, Docker, Kubernetes, Data Build Tool, GitLab CI/CD, Dixa API, Google BigQuery.
       - layout: left
@@ -117,12 +134,12 @@ content:
         description: | # this will include new lines to allow paragraphs
             **Main Tasks**: 
             + Being responsible for the creation of the Data department.
-            + Design, implement and deploy serverless applications, monitoring systems, and data pipelines for monitoring and data analysis purposes.
+            + For monitoring and data analysis purposes: design, implement and deploy serverless applications, monitoring systems and data pipelines.
             
-            **Projects in which I had big responsibility**:
-            + <mark>Truman</mark>: Design, implement from scratch and deploy in AWS an ETL platform (called Truman) based on the Kappa architecture that was used to centralize all the data of the company value chain. Some of the use cases were: Billing, Crashlytics, Business Intelligence.
+            **My involvement in projects:**:
+            + <mark>Truman</mark>: Design, implement from scratch, and deploy in AWS an ETL platform (Truman), based on the Kappa architecture, used to centralize all the data of the compan's value chain. Examples of use cases: Billing, Crashlytics, Business Intelligence.
             + <mark>Truman as a Service</mark>: Migrate Truman into AWS services in order to reduce deployment costs.
-            + <mark>Caronte</mark>: Implement in Python and deploy in AWS a serverless OAuth2.0 protocol extension that fitted an authorization necessity of the company.
+            + <mark>Caronte</mark>: A Python implementation and a AWS deployment of a serverless OAuth2.0 protocol extension, that fulfilled an authorization necessity of the company.
             
             **Tech Stack used**: Python, Java, Kafka, ELK stack, Grafana, JIRA API, AWS (DynamoDB, EC2, Lambda, Kinesis, ELK), Google Cloud.
       - layout: left
@@ -145,21 +162,21 @@ content:
         caption: 2020 - Present
         sub_title: Master's degree in Informatics Engineering
         quote: >
-          Official degree designed for IT professionals who wish to assume responsibilities in the ICT area of an organization and offer innovative technological solutions to large-scale problems.
+          Official degree designed for IT professionals focusing on acquiring responsibilities in the ICT area of an organization and how to offer innovative technological solutions to large-scale problems.
         description: | # this will include new lines to allow paragraphs
           This Master enables to:
           + Lead projects and teams in all ICT areas.
-          + Carry out all stages of the life cycle of a product or computer system, from its conception to the implantation and maintenance.
-          + Select and apply the most appropriate methodology and technology in a particular context.
+          + Own all stages of the life cycle of a product or computer system, from its conception to the implantation and maintenance.
+          + Select and apply the most appropriate methodology and technology in every particular context.
           + Develop technological solutions in innovative areas such as Artificial Intelligence, Cloud Computing or High Performance Computing.
       - layout: left
         title: Utrecht University
         caption: 2019/08
         sub_title: Project Management - From Theory to Practice
         quote: >
-          PRINCE2® Foundation Certificate in Project Management obtained.
+          PRINCE2® Foundation Certificate in Project Management.
         description: | # this will include new lines to allow paragraphs
-          Achieved the necessary skills in order to work in a multidisciplinary and multicultural project environment, and to identify the different stages and actors of a project.
+          Achieved the necessary skills for a multidisciplinary and multicultural project environment, and to identify the different stages and actors of a project.
       - layout: left
         title: Universitat Politècnica de Catalunya
         caption: 2014 - 2018
